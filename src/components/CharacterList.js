@@ -34,7 +34,7 @@ function CharacterList() {
 
   return (
     <section className="character-list">
-      <h2>TODO: `array.map()` over your state here!</h2>
+      {/* <h2>TODO: `array.map()` over your state here!</h2> */}
       <div>
       <form>
         <input
@@ -69,7 +69,7 @@ function CharacterList() {
         })}    
       </div>
 
-        <Link to= {"/Home"}>
+        <Link to= {"/"}>
       <button>Home</button>
       </Link>
 

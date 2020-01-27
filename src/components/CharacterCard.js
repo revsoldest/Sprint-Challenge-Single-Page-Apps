@@ -15,17 +15,10 @@ import styled from "styled-components"
     font-size: 300%;
     `
     const HeaderImg = styled.img`
-  width: 100px;
-  height: 100px;
-  border: 1px solid blue;
+  border: 3px solid black;
   `
 
-  // image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
-
-
-
   return (
-    
     <Card>
       <Head> {props.name}</Head> 
       <HeaderImg src={props.image} />
